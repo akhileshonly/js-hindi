@@ -12,7 +12,7 @@ console.log(name + myScoreCount);
 console.log(`my name is ${nameS} and i live in a city of code ${myCityCode}`);
 
 
-const myfirstString = new String("akhilesh-yadav");
+const myfirstString = new String("akhilesh-yadav-ten-yb");
 const myfirstSting1 = new String("   akhilesh yadav");
 
 console.log(myfirstString.length)
@@ -37,7 +37,14 @@ console.log(myfirstSting1)
 // const newString1 = myfirstSting1.slice(-8, 4)
 // console.log(newString1);
 
-const url = "https://akhileshyadav.com/yadav%akhilesh"
+const url = "https://akhileshyadav.com/yadav%20akhilesh"
 
 console.log(url.replace('%20', '-'))
+console.log(url.includes('akhilesh'))
+
+var x = console.log(myfirstString.split('-'))
+
+// var z = x
+// const l = z.toString();
+// console.log(x.blink())
 
