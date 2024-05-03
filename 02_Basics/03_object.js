@@ -69,14 +69,20 @@ obj.userName = "akhilesh";
 obj.Email = "akhilesh@gmail.com";
 obj.Email = "ashsf@lov.com";
 
-const obj1 = {
+const obj1 = { // object declaration
     nmw: "akh",
     score: 44,
-    country: "india"
-} // object declaration
+    country: "india",
+    myfn: function(){
+        console.log("my func started now");
+    } 
+}; obj1.myfn();
 
-console.log(obj);
-// console.log(obj1);
+obj1.myfn1 = function(){
+    console.log("my new function stoped working");
+}
+ obj1.myfn1();
+// console.log(obj);
 
 const syst = function myf1()
 {
