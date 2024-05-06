@@ -1,26 +1,26 @@
 
-function myfunc()
-{
-console.log("a");
-console.log("k");
-console.log("h");
-console.log("i");
-console.log("l");
+// function myfunc()
+// {
+// console.log("a");
+// console.log("k");
+// console.log("h");
+// console.log("i");
+// console.log("l");
 
-} //return myfunc()
-// console.log('hello world');
+// } //return myfunc()
+// // console.log('hello world');
 
-// const username = 5;
-function myadd (username)
-{
-    if(!username)
-        {
-            //console.log("hello world true");
-        }
+// // const username = 5;
+// function myadd (username)
+// {
+//     if(!username)
+//         {
+//             //console.log("hello world true");
+//         }
 
     
-}
-// return myadd()
+// }
+// // return myadd()
 
 function sumNumber(num1,num2)
 {
@@ -30,22 +30,12 @@ let result = num1+num2;
 } 
 sumNumber(3,4)
 
-const x = function squrerot(number)
-{
-let y = number*number;
-console.log(y);
-}
-return x(4);
-
-
-function sayMyName(){
-    console.log("H");
-    console.log("I");
-    console.log("T");
-    console.log("E");
-    console.log("S");
-    console.log("H");
-}
+// const x = function squrerot(number)
+// {
+// let y = number*number;
+// console.log(y);
+// }
+// return x(4);
 
 // sayMyName()
 
@@ -61,22 +51,21 @@ function addTwoNumbers(number1, number2){
     return number1 + number2
 }
 
-const result = addTwoNumbers(3, 5)
+// const result = addTwoNumbers(3, 5)
 
-// console.log("Result: ", result);
+// // console.log("Result: ", result);
 
 
 function loginUserMessage(username = "sam"){
     if(!username){
-        console.log("PLease enter a username");
+        // console.log("PLease enter a username");
         return
     }
     return `${username} just logged in`
 }
 
-// console.log(loginUserMessage("hitesh"))
-// console.log(loginUserMessage("hitesh"))
-
+// // console.log(loginUserMessage("akhil"))
+// // console.log(loginUserMessage("akhil"))
 
 function calculateCartPrice(val1, val2, ...num1){
     return num1
@@ -85,12 +74,12 @@ function calculateCartPrice(val1, val2, ...num1){
 // console.log(calculateCartPrice(200, 400, 500, 2000))
 
 const user = {
-    username: "hitesh",
+    username: "akhilesh",
     prices: 199
 }
 
 function handleObject(anyobject){
-    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+    //console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
 }
 
 // handleObject(user)
@@ -106,4 +95,4 @@ function returnSecondValue(getArray){
 }
 
 // console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue([200, 400, 500, 1000]));
+//console.log(returnSecondValue([200, 400, 500, 1000]));
