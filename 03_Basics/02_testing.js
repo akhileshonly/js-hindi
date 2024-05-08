@@ -4,12 +4,12 @@ var a = 5;
 var b = 6;
 var c = 7;
 
-var s = (a+b+c)/2
-const l = (s*((s-a)*(s-b)*(s-c)))
+//var s = (a+b+c)/2
+//const l = (s*((s-a)*(s-b)*(s-c)))
 // if (l==216){
 // console.log("i am OK")
 // }
-var area = Math.sqrt(l)
+//var area = Math.sqrt(l)
 //console.log(area)
 
 // function permiter(a, b, c){
@@ -56,7 +56,7 @@ const agh1 = "w3resource"
 
 function myfunc(){
 return agh1.replace('w', " ")
-} console.log(myfunc(agh1));
+} //console.log(myfunc(agh1));
 
 // Question 6: Print number 1 to 10
 
@@ -72,4 +72,27 @@ return agh1.replace('w', " ")
 
 // Question 7: Reverse the give string 
 
-const s = "akhil"
+// function myfunic(str){
+
+//     //var str = "akhil"
+//     var newarr = str.split('') // break the string into an empty array
+//     //console.log(newarr)
+//     var newrevspiltarr = newarr.reverse()
+//     var newrevrsedarr = newrevspiltarr.join('')
+//   //console.log(nwstr)
+//   return newrevrsedarr
+// }
+// console.log(myfunic('akhil'));
+
+function stringrev(str1){
+
+var newary2 = str1.split('')
+var nw3arr = newary2.reverse()
+var comparr = nw3arr.join('')
+
+return comparr
+} stringrev('akhilesh yadav')
+
+// Question 8: 
+
+
