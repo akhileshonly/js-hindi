@@ -69,25 +69,47 @@ let string_arr = ["Alex", "peter", "chloe"];
 
 // push: Adding elements at the end of the array
 arr.push(60);
-console.log("After push op " + arrs);
+// console.log("After push op " + arrs);
 
 // unshift() Adding elements at the start of the array
 arr.unshift(0, 10);
-console.log("After unshift op " + arrs );
+//console.log("After unshift op " + arrs );
 
 // pop: removing elements from the end of the array
 arr.pop();
-console.log("After pop op" + arrs);
+//console.log("After pop op" + arrs);
 
 // shift(): Removing elements from the start of the array
 arr.shift();
-console.log("After shift op " + arrs);
+//console.log("After shift op " + arrs);
 
 // splice(x,y): removes x number of elements
 // starting from index y
 arr.splice(2, 1);
-console.log("After splice op" + arrs);
+//console.log("After splice op" + arrs);
 
 // reverse(): reverses the order of elements in array
 arr.reverse();
-console.log("After reverse op" + arrs);
+//console.log("After reverse op" + arrs);
+
+// JS eval() function
+function evalfn() {
+    const a = 4;
+    const b = 4;
+    const value = eval(new String(a * b));
+    // console.log(value);
+}
+evalfn();
+
+// JS encode URI function
+const url = "https://www.google.com/search?q=geeks for geeks";
+const encodedURL = encodeURI(url);
+// console.log(encodedURL);
+
+function usernme(){
+	nam = 'akhilesh',
+	cit = 'Noida',
+	pst = 'engineer'
+	//console.log(`${nam} lives in ${cit}`)
+	return nam+cit+pst;
+}console.log(usernme());
