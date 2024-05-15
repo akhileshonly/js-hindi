@@ -1,4 +1,5 @@
-const userEmail = []
+const userEmail = null
+const username = ["akhilesh", "onlyakhilesh", "radharadha", "krishnakrishna"]
 
 if (userEmail) {
     console.log("Got user email");
@@ -13,23 +14,47 @@ if (userEmail) {
 //truthy values
 // "0", 'false', " ", [], {}, function(){}
 
-// if (userEmail.length === 0) {
+// if (userEmail.length !== 0) {
 //     console.log("Array is empty");
 // }
+// else{
+//     console.log("Array is not empty");
+// }
 
-const emptyObj = {}
+// if(username.length !== 2){
 
-if (Object.keys(emptyObj).length === 0) {
-    console.log("Object is empty");
+//     console.log(`${username[3]} welcome to the application`)
+
+// } else{
+
+//     console.log("thanks for registering")
+// }
+
+const user1 = {
+    username: "radharadha",
+    email: "radharadha@gmail.com",
+    phone: 884564376
 }
+
+console.log(`Our goddedes name is ${user1.username}, her email is ${user1.email} and phone number is ${user1.phone}`);
+
+// const emptyObj = {}
+
+// if (Object.keys(emptyObj).length === 1) {
+//     console.log("Object is empty");
+// }
+// else{
+
+//     console.log("object is not emplty")
+// }
 
 // Nullish Coalescing Operator (??): null undefined
 
 let val1;
 // val1 = 5 ?? 10
 // val1 = null ?? 10
-// val1 = undefined ?? 15
-val1 = null ?? 10 ?? 20
+val1 = undefined ?? 15
+//val1 = null ?? 10 ?? 20
 
 
 

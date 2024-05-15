@@ -96,3 +96,13 @@ return comparr
 // Question 8: 
 
 
+if((clss3[0]&&clss3[1]!=null) && singleprice !=null)
+  
+    {
+     //alert('Hi this works')
+     
+    };
+  
+(function (){}) // local function
+function name1 (){} // simple function
+( () => { }) // arrow function
