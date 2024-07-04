@@ -1,3 +1,6 @@
+// There is no need to add the GTM script on theme.liquid file or Addtional script section under Order status into shopify settings.
+// The GTM script is required to place at under customer pixel settings as shown below
+
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
